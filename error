@@ -1,0 +1,4 @@
+pi@raspberrypi:~/Desktop/days of scout $ /usr/bin/python "/home/pi/Desktop/days of scout/project/script/data_logger.py"
+Data logged to ../data/sensor_data.csv
+pi@raspberrypi:~/Desktop/days of scout $ /usr/bin/python "/home/pi/Desktop/days of scout/project/script/map_processor.py"
+QStandardPaths: wrong permissions on runtime directory /run/user/1000, 0770 instead of 0700

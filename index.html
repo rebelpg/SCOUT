@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCOUT Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #0078D7;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        main {
+            margin: 2rem auto;
+            max-width: 800px;
+            padding: 1rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        a {
+            color: #0078D7;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .file-list {
+            list-style: none;
+            padding: 0;
+        }
+        .file-list li {
+            margin: 0.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SCOUT Project</h1>
+        <p>Exploring Environment Mapping and Autonomous Movement</p>
+    </header>
+    <main>
+        <h2>About</h2>
+        <p>This repository contains scripts and data for SCOUT, an autonomous robot that maps its environment using a ToF camera and odometry. Use the links below to explore the project files and outputs.</p>
+        
+        <h2>Project Files</h2>
+        <ul class="file-list">
+            <li><a href="./data/sensor_data.csv" target="_blank">Sensor Data (CSV)</a></li>
+            <li><a href="./data/updated_map.csv" target="_blank">Updated Map (CSV)</a></li>
+            <li><a href="./data/processed_map.png" target="_blank">Processed Map (PNG)</a></li>
+        </ul>
+
+        <h2>Scripts</h2>
+        <ul class="file-list">
+            <li><a href="./project/scripts/data_logger.py" target="_blank">Data Logger Script</a></li>
+            <li><a href="./project/scripts/map_processor.py" target="_blank">Map Processor Script</a></li>
+            <li><a href="./project/scripts/movement_logger.py" target="_blank">Movement Logger Script</a></li>
+        </ul>
+
+        <h2>How to Run</h2>
+        <p>Follow these steps to use the project:</p>
+        <ol>
+            <li>Clone this repository to your local machine.</li>
+            <li>Ensure you have the necessary Python libraries installed.</li>
+            <li>Run the scripts in the <code>scripts/</code> folder as needed.</li>
+            <li>Check the <code>data/</code> folder for outputs.</li>
+        </ol>
+        
+        <h2>Contact</h2>
+        <p>For any questions or suggestions, feel free to reach out via the Issues tab on GitHub.</p>
+    </main>
+</body>
+</html>
